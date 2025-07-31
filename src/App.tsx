@@ -1,6 +1,7 @@
 import Catalog from "./routes/Catalog";
 
-export default function App() {  return (
+export default function App() {
+  return (
     <Catalog />
   )
 }

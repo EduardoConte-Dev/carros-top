@@ -1,0 +1,34 @@
+.ct-searcg-bar {
+  display: flex;
+}
+
+.ct-searcg-bar input {
+  padding: 0px 15px;
+  border: 1px solid var(--ct-color-font-placeholder);
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+}
+
+.ct-searcg-bar input::placeholder {
+  color: var(--ct-color-font-placeholder)
+}
+
+.ct-searcg-bar input:focus {
+  outline: none;
+}
+
+.ct-forms-control {
+  height: 40px;
+  width: 100%;
+}
+
+.ct-search-bar-submit {
+  background-color: var(--ct-color-font-tertiary);
+  color: var(--ct-color-font-quarternary);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 11px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
