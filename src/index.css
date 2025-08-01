@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --ct-color-bg-primary: #fff;
+  --ct-color-bg-primary: #FFF;
   --ct-color-bg-secundary: #F78B00;
+  --ct-color-bg-quarternary: #EDEDED;
+
   --ct-color-font-primary: #000;
   --ct-color-font-secundary: #585858;
   --ct-color-font-tertiary: #00285F;
-  --ct-color-font-quarternary: #fff;
+  --ct-color-font-quarternary: #FFF;
   --ct-color-font-placeholder: #A7A7A7;
+  
 }
 
 * {
